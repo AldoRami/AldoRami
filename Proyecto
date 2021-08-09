@@ -1,0 +1,206 @@
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        especificacion/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Proyecto@Desktop>git add .
+
+C:\Proyecto@Desktop>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   especificacion/Especificacion.png
+
+
+C:\Proyecto@Desktop>git commit -m "Especificacion"
+[master (root-commit) 6da0619] Especificacion
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 especificacion/Especificacion.png
+
+C:\Proyecto@Desktop>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        modelos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Proyecto@Desktop>git add .
+
+C:\Proyecto@Desktop>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   modelos/1 UML @Desktop Casos de Uso.jpg
+        new file:   modelos/2a UML @Desktop Instancias.jpg
+        new file:   modelos/2b UML @Desktop Instancias Filmografia.jpg
+        new file:   modelos/2c UML @Desktop Instancias Reparto.jpg
+        new file:   "modelos/3 UML @Desktop Clases An\303\241lisis.jpg"
+        new file:   modelos/4 UML @Desktop Secuencias.jpg
+        new file:   "modelos/5 UML @Desktop Clases Dise\303\261o.jpg"
+        new file:   "modelos/6 UML basicGUI Clases Dise\303\261o.jpg"
+        new file:   modelos/UML Analisis CinetK.uml
+        new file:   "modelos/UML Dise\303\261o CinetK.uml"
+
+
+C:\Proyecto@Desktop>git commit -m "ADOO"
+[master 779dd0e] ADOO
+ 10 files changed, 9692 insertions(+)
+ create mode 100644 modelos/1 UML @Desktop Casos de Uso.jpg
+ create mode 100644 modelos/2a UML @Desktop Instancias.jpg
+ create mode 100644 modelos/2b UML @Desktop Instancias Filmografia.jpg
+ create mode 100644 modelos/2c UML @Desktop Instancias Reparto.jpg
+ create mode 100644 "modelos/3 UML @Desktop Clases An\303\241lisis.jpg"
+ create mode 100644 modelos/4 UML @Desktop Secuencias.jpg
+ create mode 100644 "modelos/5 UML @Desktop Clases Dise\303\261o.jpg"
+ create mode 100644 "modelos/6 UML basicGUI Clases Dise\303\261o.jpg"
+ create mode 100644 modelos/UML Analisis CinetK.uml
+ create mode 100644 "modelos/UML Dise\303\261o CinetK.uml"
+
+C:\Proyecto@Desktop>md codigo
+
+C:\Proyecto@Desktop>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        codigo/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Proyecto@Desktop>git add .
+
+C:\Proyecto@Desktop>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   codigo/Actor.java
+        new file:   codigo/Compositor.java
+        new file:   codigo/FilmoMel.java
+        new file:   codigo/Pelicula.java
+        new file:   codigo/Productora.java
+        new file:   codigo/RepartoCorazonVal.java
+        new file:   codigo/TemaMusical.java
+        new file:   codigo/TestFilmoMel.java
+        new file:   codigo/TestRepartoCorazonVal.java
+
+
+C:\Proyecto@Desktop>git commit -m "Version 1: AppConsole"
+[master 19e8354] Version 1: AppConsole
+ 9 files changed, 357 insertions(+)
+ create mode 100644 codigo/Actor.java
+ create mode 100644 codigo/Compositor.java
+ create mode 100644 codigo/FilmoMel.java
+ create mode 100644 codigo/Pelicula.java
+ create mode 100644 codigo/Productora.java
+ create mode 100644 codigo/RepartoCorazonVal.java
+ create mode 100644 codigo/TemaMusical.java
+ create mode 100644 codigo/TestFilmoMel.java
+ create mode 100644 codigo/TestRepartoCorazonVal.java
+
+C:\Proyecto@Desktop>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Proyecto@Desktop>git add .
+
+C:\Proyecto@Desktop>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   codigo/TestFilmoMelGUI.java
+        new file:   codigo/TestRepartoCorazonValGUI.java
+        new file:   codigo/basicGUI/BaseAppGUI.java
+        new file:   codigo/basicGUI/BorderPanel.java
+        new file:   codigo/basicGUI/FastTester.java
+        new file:   codigo/basicGUI/FlowPanel.java
+        new file:   codigo/basicGUI/FrameGUI.java
+        new file:   codigo/basicGUI/GridPanel.java
+        new file:   codigo/basicGUI/ImagePanel.java
+        new file:   codigo/basicGUI/InternalButton.java
+
+
+C:\Proyecto@Desktop>git  commit -m "Version 2: GUI App"
+[master fcc1dae] Version 2: GUI App
+ 10 files changed, 312 insertions(+)
+ create mode 100644 codigo/TestFilmoMelGUI.java
+ create mode 100644 codigo/TestRepartoCorazonValGUI.java
+ create mode 100644 codigo/basicGUI/BaseAppGUI.java
+ create mode 100644 codigo/basicGUI/BorderPanel.java
+ create mode 100644 codigo/basicGUI/FastTester.java
+ create mode 100644 codigo/basicGUI/FlowPanel.java
+ create mode 100644 codigo/basicGUI/FrameGUI.java
+ create mode 100644 codigo/basicGUI/GridPanel.java
+ create mode 100644 codigo/basicGUI/ImagePanel.java
+ create mode 100644 codigo/basicGUI/InternalButton.java
+
+C:\Proyecto@Desktop>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Proyecto@Desktop>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        codigo/TestImageFilmoMel.java
+        codigo/TestImageRepartoCorazonValGUI.java
+        imagenes/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Proyecto@Desktop>git add .
+
+C:\Proyecto@Desktop>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   codigo/TestImageFilmoMel.java
+        new file:   codigo/TestImageRepartoCorazonValGUI.java
+        new file:   imagenes/BraveHeart.jpg
+        new file:   imagenes/BraveHeart.png
+        new file:   imagenes/Maverick.JPG
+        new file:   imagenes/Patriota.JPG
+        new file:   imagenes/SiempreJoven.JPG
+
+
+C:\Proyecto@Desktop>git commit -m "Version 3: App GUI + Images"
+[master f143fda] Version 3: App GUI + Images
+ 7 files changed, 150 insertions(+)
+ create mode 100644 codigo/TestImageFilmoMel.java
+ create mode 100644 codigo/TestImageRepartoCorazonValGUI.java
+ create mode 100644 imagenes/BraveHeart.jpg
+ create mode 100644 imagenes/BraveHeart.png
+ create mode 100644 imagenes/Maverick.JPG
+ create mode 100644 imagenes/Patriota.JPG
+ create mode 100644 imagenes/SiempreJoven.JPG
+
+C:\Proyecto@Desktop>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Proyecto@Desktop>git remote add origin https://github.com/git-dev-user-traceab
+ility/Proyecto@Desktop.git
+
+C:\Proyecto@Desktop>git branch -M main
+
+C:\Proyecto@Desktop>git push -u origin main
+Enumerating objects: 54, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (52/52), done.
+Writing objects: 100% (54/54), 800.54 KiB | 14.29 MiB/s, done.
+Total 54 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/git-dev-user-traceability/Proyecto@Desktop.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+C:\Proyecto@Desktop>git log -p
+...
+q(uit)
+
